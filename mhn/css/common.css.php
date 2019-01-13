@@ -1379,7 +1379,13 @@ fieldset .disabled-field td{color:#666;background-color:#ddd}
 .doubleFieldset legend{margin-<?php echo $left; ?>:1.5em}
 .doubleFieldset div.wrap{padding:1.5em}
 #table_name_col_no_outer{margin-top:45px}
-#table_name_col_no{top:78px;width:100%;position:fixed;background:#fff}
+#table_name_col_no{
+	top:78px;
+	width:100%;
+	position:fixed;
+	background:#fff;
+    	margin-top: 20px;
+}
 
 #table_columns input[type="text"],
 #table_columns input[type="password"],
