@@ -846,6 +846,7 @@ div {
 	}
 
 	&.success, &.notice, &.error {
+		clear: both;
 		border: 1px solid;
 		margin: 0.5em 0 0.5em;
 
